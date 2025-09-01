@@ -1,0 +1,22 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "X-Plasma-API": "declarativeappletscript",
+  "X-Plasma-API-Minimum-Version": "6.0",
+  "X-Plasma-MainScript": "ui/main.qml",
+  "KPlugin": {
+    "Id": "agefrombirth",
+    "Name": "Age From Birth",
+    "Description": "A Plasma 6 widget Shows time lived since a chosen date/time, updating every second.",
+    "Version": "1.0.0",
+    "License": "GPL-3.0-or-later",
+    "Category": "Date and Time",
+    "Authors": [
+      {
+        "Name": "Deva Ravi",
+        "Email": "deva.work.projects@gmail.com",
+        "Website": "https://github.com/devaprog/plasma.age-countdown"
+      }
+    ],
+    "Icon": "logo"
+  }
+}

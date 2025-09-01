@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <entry name="birthYear" type="Int">
+      <default>2000</default>
+      <label>Birth Year</label>
+      <whatsthis>The year you were born</whatsthis>
+    </entry>
+    <entry name="birthMonth" type="Int">
+      <default>1</default>
+      <label>Birth Month</label>
+      <whatsthis>The month you were born (1-12)</whatsthis>
+    </entry>
+    <entry name="birthDay" type="Int">
+      <default>1</default>
+      <label>Birth Day</label>
+      <whatsthis>The day you were born</whatsthis>
+    </entry>
+    <entry name="birthHour" type="Int">
+      <default>0</default>
+      <label>Birth Hour</label>
+      <whatsthis>The hour you were born (0-23)</whatsthis>
+    </entry>
+    <entry name="birthMinute" type="Int">
+      <default>0</default>
+      <label>Birth Minute</label>
+      <whatsthis>The minute you were born</whatsthis>
+    </entry>
+    <entry name="birthSecond" type="Int">
+      <default>0</default>
+      <label>Birth Second</label>
+      <whatsthis>The second you were born</whatsthis>
+    </entry>
+    <entry name="textColor" type="String">
+      <default>#ffffff</default>
+      <label>Text Color</label>
+      <whatsthis>Text color in hex format (e.g. #ffffff for white)</whatsthis>
+    </entry>
+    <entry name="backgroundColor" type="String">
+      <default>#33000000</default>
+      <label>Background Color</label>
+      <whatsthis>Background color in hex format (use #00000000 for transparent)</whatsthis>
+    </entry>
+    <entry name="useThemeColors" type="Bool">
+      <default>true</default>
+      <label>Use Theme Colors</label>
+      <whatsthis>Use system theme colors instead of custom colors</whatsthis>
+    </entry>
+  </group>
+</kcfg>
